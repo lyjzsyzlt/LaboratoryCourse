@@ -20,6 +20,7 @@ public class SqlserverFactory implements Factory {
         return new SqlserverProject();
     }
 
+    // 单例模式
     private static SqlserverFactory instance=null;
     public static SqlserverFactory getInstance(){
         if(instance==null){

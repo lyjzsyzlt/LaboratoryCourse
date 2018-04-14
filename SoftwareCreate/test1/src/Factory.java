@@ -1,6 +1,6 @@
 /**
  * @Author: YongjieLv
- * @Description:
+ * @Description: 抽象工厂接口，包含创建各种表的方法
  * @Date: Create in 19:02 2018/4/12
  * @Modified By:
  */

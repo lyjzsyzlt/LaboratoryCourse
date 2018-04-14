@@ -20,6 +20,7 @@ public class MysqlFactory implements Factory {
         return new MysqlProject();
     }
 
+    // 单例模式
     private static MysqlFactory instance=null;
     public static MysqlFactory getInstance(){
         if(instance==null){

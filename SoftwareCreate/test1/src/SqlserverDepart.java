@@ -7,12 +7,12 @@
 public class SqlserverDepart implements Department {
     @Override
     public void insert() {
-        System.out.println("插入一个部门");
+        System.out.println("插入一个部门--Sqlserver");
     }
 
     @Override
     public Department getDepartment(int id) {
-        System.out.println("得到一个部门");
+        System.out.println("得到一个部门--Sqlserver");
         return null;
     }
 }

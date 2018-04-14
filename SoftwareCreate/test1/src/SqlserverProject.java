@@ -7,12 +7,12 @@
 public class SqlserverProject implements Project {
     @Override
     public void insert() {
-        System.out.println("增加一个项目");
+        System.out.println("增加一个项目--Sqlserver");
     }
 
     @Override
     public Project getProject(int id) {
-        System.out.println("得到一个项目");
+        System.out.println("得到一个项目--Sqlserver");
         return null;
     }
 }

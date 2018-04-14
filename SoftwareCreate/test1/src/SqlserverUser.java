@@ -7,12 +7,12 @@
 public class SqlserverUser implements User {
     @Override
     public void insert() {
-        System.out.println("增加一个用户");
+        System.out.println("增加一个用户--Sqlserver");
     }
 
     @Override
     public User getUser(int id) {
-        System.out.println("得到一个用户");
+        System.out.println("得到一个用户--Sqlserver");
         return null;
     }
 }
